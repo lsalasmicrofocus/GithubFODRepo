@@ -1,0 +1,58 @@
+1185188034 org.owasp.webgoat:webgoat-parent:pom:v8.2.0-SNAPSHOT
+884599555 org.springframework.boot:spring-boot-starter-validation:jar:2.4.0:compile
+1140697305 org.springframework.boot:spring-boot-starter:jar:2.4.0:compile
+1238905282 org.springframework.boot:spring-boot:jar:2.4.0:compile
+1403495948 org.springframework:spring-context:jar:5.3.1:compile
+683523720 org.springframework:spring-aop:jar:5.3.1:compile
+621014131 org.springframework:spring-beans:jar:5.3.1:compile
+1617920437 org.springframework:spring-expression:jar:5.3.1:compile
+1579140143 org.springframework.boot:spring-boot-autoconfigure:jar:2.4.0:compile
+1152524191 org.springframework.boot:spring-boot-starter-logging:jar:2.4.0:compile
+2129138446 ch.qos.logback:logback-classic:jar:1.2.3:compile
+1654015823 ch.qos.logback:logback-core:jar:1.2.3:compile
+1116264846 org.slf4j:slf4j-api:jar:1.7.30:compile
+378693799 org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3:compile
+677144856 org.apache.logging.log4j:log4j-api:jar:2.13.3:compile
+2023817059 org.slf4j:jul-to-slf4j:jar:1.7.30:compile
+2086673744 jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile
+2041742635 org.springframework:spring-core:jar:5.3.1:compile
+846014380 org.springframework:spring-jcl:jar:5.3.1:compile
+1296670053 org.yaml:snakeyaml:jar:1.27:compile
+826245889 org.glassfish:jakarta.el:jar:3.0.3:compile
+1556730832 org.hibernate.validator:hibernate-validator:jar:6.1.6.Final:compile
+130211746 jakarta.validation:jakarta.validation-api:jar:2.0.2:compile
+107075722 org.jboss.logging:jboss-logging:jar:3.4.1.Final:compile
+1259037900 com.fasterxml:classmate:jar:1.5.1:compile
+1506703662 org.projectlombok:lombok:jar:1.18.4:provided (optional) 
+1214284410 org.apache.commons:commons-exec:jar:1.3:compile
+1078834804 javax.xml.bind:jaxb-api:jar:2.3.1:compile
+1357944757 javax.activation:javax.activation-api:jar:1.2.0:compile
+#
+1403495948 683523720 compile
+1403495948 621014131 compile
+1403495948 1617920437 compile
+1238905282 1403495948 compile
+1140697305 1238905282 compile
+1140697305 1579140143 compile
+2129138446 1654015823 compile
+2129138446 1116264846 compile
+1152524191 2129138446 compile
+378693799 677144856 compile
+1152524191 378693799 compile
+1152524191 2023817059 compile
+1140697305 1152524191 compile
+1140697305 2086673744 compile
+2041742635 846014380 compile
+1140697305 2041742635 compile
+1140697305 1296670053 compile
+884599555 1140697305 compile
+884599555 826245889 compile
+1556730832 130211746 compile
+1556730832 107075722 compile
+1556730832 1259037900 compile
+884599555 1556730832 compile
+1185188034 884599555 compile
+1185188034 1506703662 provided
+1185188034 1214284410 compile
+1078834804 1357944757 compile
+1185188034 1078834804 compile
